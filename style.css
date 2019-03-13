@@ -1,10 +1,12 @@
 body {
     background-color: #232323;
+    margin: 0;
+    font-family: "Trebuchet MS", Helvetica, sans-serif
 }
   
 .container {
     max-width: 600px;
-    margin: 0 auto;
+    margin: 15px auto;
 }
   
 .square{
@@ -14,12 +16,63 @@ body {
     float: left;
     margin: 1.66%;
     border-radius: 15px;
+    transition: background 1.0s;
+    -webkit-transition: background 1.0s;
+    -moz-transition: background 1.0s;
 }
 
 h1{
     color: white;
+    text-align: center;
+    background-color: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+    
 }
 
-span {
+#colorDisplay{
+    font-size: 200%;
+}
+
+#message {
+    display: inline-block;
+    width: 20%;
+}
+#stripe{
+    background-color: white;
+    height: 30px;
+    text-align: center;
+}
+
+.selected {
+    background-color: steelblue;
     color: white;
+}
+
+button{
+    border: none;
+    background: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    
+}
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;;
+    -moz-transition: all 0.5s;;
+}
+.square:hover{
+    transform: scale(1.05);
+    transition: all 0.5s;
+
 }
