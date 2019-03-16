@@ -39,7 +39,7 @@ h1{
 
 #message {
     display: inline-block;
-    width: 20%;
+    width: 15%;
 }
 #stripe{
     background-color: white;
@@ -60,7 +60,6 @@ button{
     font-weight: 700;
     color: steelblue;
     letter-spacing: 1px;
-    font-size: inherit;
     outline: none;
     
 }
