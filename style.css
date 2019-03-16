@@ -6,7 +6,7 @@ body {
   
 .container {
     max-width: 600px;
-    margin: 15px auto;
+    margin: 10px auto;
 }
   
 .square{
@@ -61,6 +61,7 @@ button{
     color: steelblue;
     letter-spacing: 1px;
     font-size: inherit;
+    outline: none;
     
 }
 
